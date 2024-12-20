@@ -14,11 +14,7 @@ CORS(app)
 # Configuración de la conexión a la base de datos PostgreSQL
 conn = psycopg2.connect(**DATABASE_CONFIG)
 
-#Codigos de verificacion de datos
-twilio_id = 'AC44c8c2ea2f15b184e252c788926452f5'
-twilio_token = '29f39803810c485f8ebf23213ad32b4e'
-verificacion_id = "VA4ec543dc919584a9c14d7d25e653bde7"
-twilio_numero = '+593999704133'
+
 
 #Inicializar twilio
 client = Client(twilio_id, twilio_token)
