@@ -1,0 +1,84 @@
+.video {
+    padding-top: 80px;
+    
+    padding-right: 80px;
+    width: auto;
+    flex-wrap: nowrap; 
+}
+
+.video .col-3 {
+    position: relative;
+    padding-top: 10px ;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: stretch;
+}
+
+.acordion {
+    width: 100%;
+}
+.acordion .accordion-collapse {
+    position: absolute;
+    background-color: rgb(247, 207, 4,0.7);
+    width: 100%;
+}
+
+.acordion .accordion-button{
+    position: relative;
+    background-color: rgba(247, 207, 4, 0.512);
+    font-weight: bold;
+    text-align: start;
+}
+
+.figure {
+    position: relative;
+    flex: 1; 
+}
+
+.figure-img {
+    width: 100%; 
+    height: auto;
+}
+
+.tipo-cuenta .container {
+    color: aliceblue;
+}
+
+.precio-descuento {
+    height: auto;
+}
+
+.asesor {
+    position: relative; 
+    height: auto; 
+}
+
+.buton1, .buton2 {
+    opacity: 1;
+    position: relative;
+    top: 0;
+    margin-top: 5px;
+}
+
+.boton {
+    position: relative;
+    opacity: 1;
+    top: 0;
+}
+
+/* .pago {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+} */
+
+.form-check-label {
+    color: white;
+}
+
+.pago .img-pago {
+    height: auto;
+    width: 110px;
+}

@@ -1,0 +1,11 @@
+.botonn {
+    opacity: 1;
+    top: 0;
+    position: relative;
+}
+
+.accordion-body .rounded {
+    height: auto;
+    min-height: 75px;
+    max-width: 175px;
+}

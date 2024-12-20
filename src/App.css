@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(to bottom, black 50%,rgb(6, 152, 87));
+  background-attachment:fixed;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; 
+}
+
+.App {
+  position: relative;
+  height: 100vh;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+
+.contenedor-blanco {
+  background: linear-gradient(to top,rgb(8, 0, 0) 15%, rgb(197, 196, 172) );
+  width: auto;
+  height: auto;
+  margin-top: 55px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}

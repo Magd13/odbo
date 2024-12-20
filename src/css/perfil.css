@@ -1,0 +1,39 @@
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.row {
+    width: auto;
+    padding: 10px;
+}
+
+.contenedor-slider {
+    background-color: aliceblue;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenedor-enlaces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+
+.contenedor-enlaces .col-9{
+    min-height: 600px;
+    
+}
+
+.list-unstyled a {
+    text-decoration: none; 
+  }
+
+.input-group {
+    margin-left: -15px;
+}
+
